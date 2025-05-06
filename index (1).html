@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Интернет-магазин шин и дисков в Узбекистане. Легковые и грузовые авто. Доставка, качество, удобство - TireMaster.uz" />
+  <meta name="keywords" content="шины, диски, грузовые, легковые, купить, Узбекистан, TireMaster" />
+  <meta name="author" content="TireMaster.uz" />
+  <title>TireMaster.uz - Магазин шин и дисков</title>
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background-color: #f8f8f8; }
+    header { background-color: #1c1c1c; color: white; padding: 10px; text-align: center; }
+    header img { max-height: 60px; margin: 10px auto; display: block; }
+    nav { background-color: #333; display: flex; flex-wrap: wrap; justify-content: center; }
+    nav a { color: white; padding: 12px 16px; text-decoration: none; }
+    nav a:hover { background-color: #555; }
+    .container { padding: 20px; max-width: 1200px; margin: auto; }
+    .product-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+    .product { background: white; border-radius: 8px; padding: 16px; box-shadow: 0 0 10px rgba(0,0,0,0.1); text-align: center; }
+    .product img { width: 100%; height: auto; border-radius: 6px; }
+    .product h3 { margin: 10px 0 5px; }
+    .product p { font-size: 14px; color: #555; }
+    .order-btn { display: inline-block; margin-top: 10px; padding: 10px 20px; background: #e30613; color: white; text-decoration: none; border-radius: 5px; }
+    .order-btn:hover { background: #b4050f; }
+    .contact-btn { background: #0088cc; color: white; padding: 12px 18px; border-radius: 8px; text-decoration: none; display: inline-block; margin: 20px auto; }
+    footer { background-color: #1c1c1c; color: white; text-align: center; padding: 15px 0; margin-top: 40px; }
+    @media (max-width: 600px) {
+      nav a { padding: 10px; font-size: 14px; }
+      header img { max-height: 50px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://raw.githubusercontent.com/abdulbois04/Abdulbois/main/logo.png" alt="TireMaster Logo" />
+    <h1>TireMaster.uz</h1>
+    <p>Шины и диски для легковых и грузовых автомобилей</p>
+  </header>
+  <nav>
+    <a href="#">Главная</a>
+    <a href="#products">Каталог</a>
+    <a href="#contact">Контакты</a>
+  </nav>
+  <div class="container" id="products">
+    <h2>Наши товары</h2>
+    <div class="product-grid">
+      <div class="product">
+        <img src="https://via.placeholder.com/300x200" alt="Шина R15">
+        <h3>Шина R15</h3>
+        <p>Летняя, для легковых авто. 450,000 сум</p>
+        <a class="order-btn" href="https://t.me/Abdulbois_04?text=Здравствуйте, хочу заказать Шина R15">Заказать</a>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/300x200" alt="Грузовая шина R22.5">
+        <h3>Грузовая шина R22.5</h3>
+        <p>Повышенная нагрузка. 1,200,000 сум</p>
+        <a class="order-btn" href="https://t.me/Abdulbois_04?text=Здравствуйте, хочу заказать Грузовая шина R22.5">Заказать</a>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/300x200" alt="Диск литой R16">
+        <h3>Диск литой R16</h3>
+        <p>Универсальный стиль. 600,000 сум</p>
+        <a class="order-btn" href="https://t.me/Abdulbois_04?text=Здравствуйте, хочу заказать Диск литой R16">Заказать</a>
+      </div>
+    </div>
+  </div>
+  <div class="container" id="contact" style="text-align: center;">
+    <h2>Свяжитесь с нами</h2>
+    <p>Телеграм: <a href="https://t.me/Abdulbois_04">@Abdulbois_04</a></p>
+    <a class="contact-btn" href="https://t.me/Abdulbois_04" target="_blank">Написать в Telegram</a>
+  </div>
+  <footer>
+    <p>&copy; 2025 TireMaster.uz. Все права защищены.</p>
+  </footer>
+</body>
+</html>
